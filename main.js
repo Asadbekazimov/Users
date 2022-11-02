@@ -77,5 +77,5 @@ function objUsers(obj) {
     return userInfo
 }
 for (const key in users) {
-    console.log(objUsers(users[key]));
+    alert(objUsers(users[key]));
 }
